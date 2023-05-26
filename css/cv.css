@@ -1,0 +1,363 @@
+* {
+  font-family: "VT323", monospace;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #0f2027;
+  background: -webkit-linear-gradient(to bottom, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to bottom, #2c5364, #203a43, #0f2027);
+}
+h1 {
+  padding-bottom: 30px;
+  font-size: 2.7em;
+  text-shadow: -2px 2px 0px rgb(127, 127, 127);
+}
+hr {
+  width: 95%;
+}
+img {
+  width: 98%;
+  height: 96%;
+}
+body {
+  box-sizing: border-box;
+  background-color: rgb(19, 19, 19);
+}
+a {
+  text-decoration: none;
+}
+nav,
+ul {
+  width: 100vw;
+  font-size: 1.2em;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav {
+  background-color: rgb(3, 3, 200);
+  padding-left: 20px;
+  height: 10vh;
+}
+li {
+  color: white;
+}
+button:hover {
+  opacity: 0.9;
+  transition: 0.2s;
+}
+button:active {
+  opacity: 0.7;
+
+  transition: 0.2s;
+}
+.navbar {
+  box-shadow: inset 1px -3px 10px rgb(0 0 0 / 0.7),
+    inset -1px 3px 10px rgb(255 255 255 / 0.5);
+  position: fixed;
+}
+.logo {
+  width: auto;
+  height: 80%;
+}
+.welcoming {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+  height: 60vh;
+  padding-top: 10vh;
+}
+.welcoming-divs {
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tabBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.tabButton {
+  height: 28px;
+  width: 28px;
+  background-color: red;
+  color: white;
+  border: solid white 1px;
+  border-radius: 5px;
+  box-shadow: inset 2px 1px 5px rgb(255 255 255 / 0.6),
+    inset -2px -1px 5px rgb(0 0 0 / 0.6);
+}
+
+.midButton {
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: rgb(3, 3, 200);
+}
+.downImageKeeper {
+  border: solid white 2px;
+  background-color: rgb(0, 0, 0);
+  height: 90%;
+  width: 95%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tab-orta {
+  width: 50%;
+  height: auto;
+  margin-top: 2px;
+}
+.button1 {
+  background-color: rgb(3, 3, 200);
+}
+.welcome-exp {
+  font-family: "Lucida Console", sans-serif;
+  font-size: 1.1em;
+}
+.tab-exp {
+  font-size: 1.3em;
+  color: white;
+}
+.welcoming-exp {
+  text-align: left;
+  height: max-content;
+  width: 80%;
+  background-color: blue;
+  color: white;
+
+  padding-left: 10px;
+  padding-top: 10px;
+  box-shadow: -4px 4px 5px black;
+}
+.computer {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pc {
+  box-shadow: -5px 5px 20px #12c2e9, 5px -5px 20px #c471ed;
+  border: solid 20px black;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.pcUp {
+  width: 80vw;
+  height: 70vh;
+  background-image: url(/cv/photos/winxp.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+}
+.pcUpLeft {
+  display: flex;
+  flex-direction: column;
+}
+.pcDw {
+  height: 5vh;
+  background-color: rgb(10, 93, 217);
+  display: grid;
+  grid-template-columns: 1.3fr 7fr 1.5fr;
+  box-shadow: inset 1px 3px 9px white;
+}
+.folder {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 7vh;
+  width: 7vw;
+  margin-bottom: 7vh;
+}
+.folderUp {
+  padding-left: 7px;
+}
+.folderImage {
+  height: 7vh;
+  width: auto;
+}
+.folderText {
+  font-size: 1.25em;
+  text-shadow: -1px 1px 0px white;
+}
+.dwL {
+  background-color: rgb(1, 145, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-shadow: -2px 2px 1px black;
+  font-size: 1.4em;
+  border-radius: 0px 18px 27px 0px;
+  box-shadow: 2px 0px 40px black, inset 0px 2px 7px rgb(255 255 255),
+    inset -5px 0px 20px rgb(0 0 0 / 0.6), inset 3px -4px 7px rgb(0, 71, 0);
+}
+
+.startLogo {
+  margin-right: 7px;
+  height: 30px;
+  width: 30px;
+}
+.dwEnd {
+  background-color: rgb(37, 110, 219);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -2px 0px 40px black, inset -1px 4px 8px rgb(255 255 255),
+    inset 2px -4px 8px rgb(0 0 0);
+}
+#saat {
+  font-size: 1.4em;
+  color: white;
+  text-shadow: -2px 2px 0px black;
+}
+.dwR {
+  padding-left: 10px;
+  max-width: 70vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  overflow: hidden;
+}
+.lowerSec {
+  height: 5vh;
+  width: 20%;
+  padding-left: 10px;
+  border-radius: 5px;
+  background-color: rgb(204, 204, 204);
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 5px black;
+}
+.lowerSecImage {
+  height: 5vh;
+  width: auto;
+}
+.pc-folder-right {
+  display: flex;
+  justify-content: end;
+  padding-right: 10px;
+}
+.pc-folder-bottom {
+  display: flex;
+  justify-content: left;
+  padding-top: 40px;
+  padding-left: 20px;
+  background-color: rgb(245, 231, 173);
+  height: 45vh;
+  width: 35vw;
+}
+.gifBlockUp {
+  background-color: rgb(3, 3, 200);
+  height: 40px;
+  width: 35vw;
+  display: grid;
+  grid-template-columns: 70fr 30fr;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: inset 0px 1px 5px rgb(255 255 255 / 0.6),
+    inset 3px -3px 7px rgb(0 0 0 / 0.6);
+}
+.gifBlockDown {
+  background-color: darkgray;
+  height: 45vh;
+  width: 35vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gifblock {
+  border-radius: 15px 15px 0px 0px;
+  border: solid 2px rgb(3, 3, 200);
+  box-shadow: -4px 4px 5px black;
+  width: max-content;
+}
+.folderBlockUp {
+  width: 100%;
+}
+.folderBlock {
+  z-index: 1;
+  position: absolute;
+}
+.folderBlock1 {
+  position: absolute;
+
+  z-index: 1;
+}
+.folderBlock2 {
+  position: absolute;
+
+  z-index: 1;
+}
+.pcGrid {
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+}
+.tabRight {
+  padding-top: 6px;
+  padding-right: 7px;
+  display: flex;
+  justify-content: end;
+}
+.tabLeft {
+  padding-top: 9px;
+  text-align: left;
+  padding-left: 15px;
+}
+.pcUpRight {
+  padding-left: 10px;
+}
+.gifBlockUpp {
+  background-color: rgb(3, 3, 200);
+  height: 40px;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 70fr 30fr;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: inset 0px 1px 5px rgb(255 255 255 / 0.6),
+    inset 3px -3px 7px rgb(0 0 0 / 0.6);
+}
+.gifBlockDownn {
+  background-color: darkgray;
+  height: 150vh;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 0.4fr 0.6fr;
+}
+.gifblockk {
+  border-radius: 15px 15px 0px 0px;
+  border: solid 2px rgb(3, 3, 200);
+  box-shadow: -4px 4px 5px black;
+  width: max-content;
+  margin-left: 5vw;
+}
+.whoL {
+  display: flex;
+  flex-direction: column;
+}
+.photoBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photoKeeper {
+  height: 70%;
+  width: 70%;
+}
